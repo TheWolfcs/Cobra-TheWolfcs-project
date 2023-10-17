@@ -26,6 +26,3 @@ In essence, this script shifts the characters of the input text by subtracting 1
 
 
 [(Back to top)](#table-of-contents)
-
-
-The MIT License (MIT) 2017 - [Athitya Kumar](https://github.com/athityakumar/). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
