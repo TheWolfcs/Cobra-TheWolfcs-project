@@ -6,23 +6,8 @@ This encryption script is a powerful tool designed to protect and secure your se
 
 # Description:
 
-This Bash script is an encryption program that takes a text input and transforms it into a different form. Here's how it works:
+This Bash script offers a user-friendly solution for encrypting and safeguarding your valuable data. By using this script,you can add a layer of security to your information, making it considerably more challenging for unauthorized individuals to access and decipher your sensitive content.
 
-It defines a function encrypt_text which takes a string input and returns the encrypted version of that string.
-
-The script iterates through each character in the input text.
-
-For each character, it determines its ASCII code using printf "%d" "'$char". This code represents the numerical value of the character.
-
-It checks if the ASCII code falls within the range of 0 to 10. If it does, it means the character is a digit or a special character, and in that case, it leaves the character unchanged.
-
-If the ASCII code is not within the range of 0 to 10, it subtracts 10 from the code. This process converts letters and other characters into different characters.
-
-The script then converts the modified ASCII code back into a character and appends it to the encrypted_text string.
-
-Finally, the encrypted text is displayed to the user.
-
-In essence, this script shifts the characters of the input text by subtracting 10 from their ASCII codes, while leaving digits and special characters unchanged.
-
+This encryption method is a practical measure to protect your data from prying eyes and ensure your privacy.
 
 [(Back to top)](#table-of-contents)
