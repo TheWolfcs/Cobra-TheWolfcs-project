@@ -15,8 +15,8 @@ encrypt_text() {
     for ((i = 0; i < ${#input_text}; i++)); do
         char="${input_text:$i:1}"
         av=$(printf "%d" "'$char")
-	encrypted_ascii_value=$((av - key))
-        encrypted_char=$(printf \\x$(printf %x "$encrypted_ascii_value"))
+	eav=$((av - key))
+        encrypted_char=$(printf \\x$(printf %x "$eav"))
         encrypted_text="${encrypted_text}${encrypted_char}"
     done
     
